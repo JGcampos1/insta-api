@@ -1,0 +1,62 @@
+
+body{
+  background:whitesmoke;
+}
+  
+form{
+  display: flex;
+  justify-content: center;
+}
+button{
+  height: 30px;
+  color: whitesmoke;
+  background-color: #FF7839;
+  font-weight: bold;
+  margin-left: 15px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  color:#FF7839;
+  
+}
+.lista{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#user-list{
+  color: #000;
+  list-style-type:none;
+  width: 40%;
+  padding: 10px 10px 10px 10px;
+
+}
+li{
+  border-radius: 5px;
+  background: #FFF;
+  padding: 30px 30px 30px 30px;
+  border: solid 1px #DDD;
+  margin: 20px 0px ;
+}
+li img{
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+li strong{
+  font-size: 20px;
+  margin-top:500px;
+}
+li p{
+  color:gray;  
+  font-size:16px;
+  margin:5px 0;
+}
+li spam{
+  margin-right: 5px;
+  font-weight: initial;
+  font-size: 14px;
+}
